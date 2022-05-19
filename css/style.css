@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, p, ul, li, a{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+.container{
+  width: 70%;
+}
+header{
+  background: url(../imges/hiro_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-item:last-child{
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.row{
+ align-items: center;
+}
+.hiro_content{
+  height: 60vh;
+}
+.hiro_inner_content{
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+}
+.hiro_content h3{
+  font-size: 45px;
+  font-weight: 500;
+}
+.hiro_content h1{
+  font-size: 100px;
+  line-height: 60px;
+  font-weight: 500;
+}
+.hiro_content p{
+  margin-top: 25px;
+  font-size: 15px;
+}
+.btn_custom{
+  background: #FFD936;
+  margin-top: 25px;
+  transition: .3s all ease-in-out;
+}
+.btn_custom:hover{
+  background: #DAB200;
+}
+#services{
+  overflow: hidden;
+}
+#services h2{
+  color: #536942;
+  margin-bottom: 15px;
+}
+#services span{
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #FFD936;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.services_content h4{
+  color: #536942;
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-weight: 400;
+}
+.services_content p{
+  color: #7D8E70;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#testimonila{
+  background: #F6F8F5;
+}
+.testimonilal_content h3{
+  color: #536942;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+.testimonial_icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.testimonilal_content h5{
+  font-size: 14px;
+  font-weight: 300;
+  color: #A4B09A;
+}
+
+#about_us{}
+#about_us h5{
+  font-size: 14px;
+  font-weight: 300;
+  color: #A4B09A;
+}
+#about_us h3{
+  color: #536942;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+#about_us p{
+  color: #7D8E70;
+  font-size: 15px;
+  margin: 40px 0;
+}
+.about_btn{
+  border: 1px solid #7D8E70;
+  color: #536942;
+  transition: .3s all ease-in-out;
+  margin-bottom: 20px;
+}
+.about_btn:hover{
+  border: 1px solid #9FCE00;
+  color: #9FCE00;
+}
+#contact{
+  background: url(../imges/question_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row{
+  align-items: center;
+  justify-content: center;
+}
+.contact_content{
+  width: 50%;
+  text-align: center;
+}
+#contact h2{
+  color: #0A3758;
+}
+#contact p{
+  color: #435e2f;
+  font-size: 15px;
+}
+footer .navbar-light .navbar-nav .nav-link {
+  color: #7D8E70;
+  font-size: 14px;
+}
+footer .navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+footer h4{
+  text-align: center;
+  margin: 20px 0;
+}
+footer p{
+  text-align: center;
+  font-size: 14px;
+  color: #7D8E70;
+  margin: 20px 0;
+}
